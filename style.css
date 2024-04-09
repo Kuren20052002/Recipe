@@ -1,0 +1,49 @@
+body {
+    background-image: none;
+    background-color: #77B0AA;
+    font-family: "Dancing Script", 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}   
+
+.dish-name {
+    font-size: 50px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border:5px solid white;
+}
+
+.recipe-container > .recipe {
+    color:white;
+    width: 452px;
+    line-height: 50px;
+    margin: 10px;
+    background-color: #135D66;
+    border-radius: 75px;
+    text-align: center;
+    box-shadow: 10px 10px;
+}
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
