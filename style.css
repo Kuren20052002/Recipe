@@ -9,13 +9,7 @@ body {
     font-family: "Dancing Script", 'Courier New', Courier, monospace;
 }
 
-body::before{
-    background-image: url("./Images/chef.jpg");
-    background-size: 500px 450px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
 
 h1 {
     text-align: center;
@@ -68,6 +62,12 @@ li, h2 {
     justify-content: center;
 }
 
+.ingredients, .steps{
+    background-color: #135D66;
+    border-radius: 25px;
+    line-height: 65px;
+    font-size: 45px;
+}
 // <uniquifier>: Use a unique and descriptive class name
 
 .dancing-script-<uniquifier> {
