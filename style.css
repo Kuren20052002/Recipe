@@ -3,7 +3,7 @@ body {
     background-color: #003C43 ;
     background-image: url("./Images/chef.jpg"), url("./Images/chef.jpg");
     background-size: 500px 450px;
-    background-position: top right 1050px, top left 1050px;
+    background-position: top right 110%, top left 110%;
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed, fixed;
     font-family: "Dancing Script", 'Courier New', Courier, monospace;
@@ -46,9 +46,9 @@ li, h2 {
 
 .recipe-container > .recipe {
     color:white;
-    width: 430px;
+    width: 400px;
     line-height: 10px;
-    margin: 15px;
+    margin: 10px;
     text-decoration: none;
     background-color: #135D66;
     border-radius: 75px;
@@ -68,6 +68,12 @@ li, h2 {
     line-height: 65px;
     font-size: 45px;
 }
+
+.back-button {
+    border-radius: 25px;
+    color
+}
+
 // <uniquifier>: Use a unique and descriptive class name
 
 .dancing-script-<uniquifier> {
